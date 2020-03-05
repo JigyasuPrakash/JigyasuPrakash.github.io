@@ -80,7 +80,7 @@ section {
 
 .home h3 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 10px 20px;
     margin: 10px 0 50px;
@@ -117,7 +117,7 @@ section {
 .section-info p {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 28px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .section-info .mybtn {
