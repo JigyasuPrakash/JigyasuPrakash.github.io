@@ -1,11 +1,13 @@
 import React from 'react'
 
-function Projects() {
+function Home() {
     return (
-        <React.Fragment>
-            <h1>Projects</h1>
-        </React.Fragment>
+        <section className="page">
+            <div className="section-title">
+                <h1><u>Projects</u></h1>
+            </div>
+        </section>
     )
 }
 
-export default Projects
+export default Home

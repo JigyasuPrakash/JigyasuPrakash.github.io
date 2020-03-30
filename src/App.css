@@ -7,11 +7,17 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.page{
+   position: absolute;
+   left: 0;
+   right: 0;
+}
+
 .particles-js {
     background-color: #000000;
     position: fixed;
     left: 0;
-    opacity: 90%;
+    opacity: 100%;
     height: 100%;
     width: 100%;
     top: 0;
@@ -19,7 +25,6 @@ h1 {
 
 header {
     font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
     color: #fff;
     font-size: 18px;
     top: 0;
@@ -36,7 +41,6 @@ header ul a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    visibility: hidden;
     transition: background-color 0.5s ease-out;
 }
 
@@ -56,18 +60,18 @@ section {
     padding: 60px 0;
     height: 100%;
     position: relative;
-    transition: background-color 0.5s ease-out;
 }
 
 .home {
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     padding: 0;
-    margin-top: 200px;
+    left: 0;
+    right: 0;
+    margin-top: 220px;
     margin-bottom: 170px;
     text-align: center;
     justify-content: center;
-    transition: background-color 0.5s ease-out;
 }
 
 .home h1 {
@@ -75,7 +79,6 @@ section {
     font-size: 60px;
     text-transform: uppercase;
     text-shadow: 0 15px 20px #808080;
-    visibility: hidden;
 }
 
 .home h3 {
@@ -86,7 +89,6 @@ section {
     margin: 10px 0 50px;
     display: inline-block;
     letter-spacing: 2;
-    visibility: hidden;
 }
 
 .section-title {
@@ -137,4 +139,31 @@ section {
 
 .mynav {
     background-color: darkslategray;
+}
+
+.footer{
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
 }

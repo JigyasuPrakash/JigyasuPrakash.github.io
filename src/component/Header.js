@@ -1,14 +1,13 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import '../App.css';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
-        <header id="thisisnav" style={{position: "sticky"}}>
-            <ul style={{padding:0, margin:0}}> 
-                <Link to="/" className="w3-button">Home</Link>
-                <Link to="/about" className="w3-button">About</Link>
-                <Link to="/projects" className="w3-button">Projects</Link>
+        <header id="thisisnav" style={{ position: "fixed" }}>
+            <ul style={{ padding: 0, margin: 0 }}>
+                <NavLink to="/" className="w3-button">Home</NavLink>
+                <NavLink to="/about" className="w3-button">About</NavLink>
+                <NavLink to="/projects" className="w3-button">Projects</NavLink>
             </ul>
         </header>
     )

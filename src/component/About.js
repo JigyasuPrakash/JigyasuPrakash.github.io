@@ -1,11 +1,13 @@
 import React from 'react'
 
-function About() {
+function Home() {
     return (
-        <React.Fragment>
-            <h1>About</h1>
-        </React.Fragment>
+        <section className="page">
+            <div className="section-title">
+                <h1><u>About</u></h1>
+            </div>
+        </section>
     )
 }
 
-export default About
+export default Home
