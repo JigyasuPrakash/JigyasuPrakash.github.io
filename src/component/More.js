@@ -6,10 +6,9 @@ function Home() {
         <div className="page">
             <section>
                 <div className="section-title">
-                    <h1><u>Projects</u></h1>
+                    <h1><u>About</u></h1>
                 </div>
             </section>
-
             <Footer />
         </div>
     )

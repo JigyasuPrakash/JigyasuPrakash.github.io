@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import './App.css';
+import 'w3-css';
 import Header from './component/Header';
 import Particle from './component/Particle'
-import About from './component/About';
+import More from './component/More';
 import Projects from './component/Projects';
 import Home from './component/Home';
-import './App.css';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 class App extends Component {
@@ -22,8 +23,8 @@ class App extends Component {
               classNames="fade">
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
+                <Route path="/more" component={More} />
               </Switch>
             </CSSTransition>
           </TransitionGroup>

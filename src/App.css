@@ -5,6 +5,7 @@ div,
 h1 {
     scroll-behavior: smooth;
     font-family: 'Josefin Sans', sans-serif;
+    color: white;
 }
 
 .page{
@@ -21,6 +22,20 @@ h1 {
     height: 100%;
     width: 100%;
     top: 0;
+}
+
+:hover{
+    color: white
+}
+
+.iconBox{
+    justify-content: center;
+    padding: 15px;
+}
+
+.iconBox :hover{
+    color: red;
+    transition: color 300ms linear;
 }
 
 header {
@@ -44,15 +59,11 @@ header ul a {
     transition: background-color 0.5s ease-out;
 }
 
-:hover {
-    color: #fff;
-}
-
 .fixed {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #fff;
 }
 
 section {
@@ -104,7 +115,6 @@ section {
     font-size: 28px;
     border-bottom: 1px solid;
     text-transform: uppercase;
-    padding: 0 0 10px;
 }
 
 .section-info {
@@ -156,7 +166,7 @@ section {
 .fade-appear-active,
 .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 300ms linear 150ms;
+    transition: opacity 250ms linear 200ms;
 }
 
 .fade-exit {
@@ -165,5 +175,5 @@ section {
 
 .fade-exit.fade-exit-active {
     opacity: 0;
-    transition: opacity 150ms linear;
+    transition: opacity 200ms linear;
 }

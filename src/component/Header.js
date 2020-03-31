@@ -6,8 +6,8 @@ function Header() {
         <header id="thisisnav" style={{ position: "fixed" }}>
             <ul style={{ padding: 0, margin: 0 }}>
                 <NavLink to="/" className="w3-button">Home</NavLink>
-                <NavLink to="/about" className="w3-button">About</NavLink>
                 <NavLink to="/projects" className="w3-button">Projects</NavLink>
+                <NavLink to="/more" className="w3-button">More</NavLink>
             </ul>
         </header>
     )
