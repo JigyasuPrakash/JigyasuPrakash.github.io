@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import ReactCardFlip from 'react-card-flip';
 import CardContent from './CardContent';
-import CardTitle from './CardTitle';
 
 class Test extends Component {
 
@@ -13,8 +12,6 @@ class Test extends Component {
             isFlippedB: false,
             isFlippedC: false,
             isFlippedD: false,
-            titleA: "Language",
-            contentA: ["JavaScript", "Java", "Python"]
         }
     }
 
@@ -40,20 +37,20 @@ class Test extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-4">
-                        <ReactCardFlip isFlipped={this.state.isFlippedA} flipDirection={"vertical"}>
-                            <div onClick={this.handleClickA}>
-                                <CardTitle />
-                            </div>
-
+                        <ReactCardFlip isFlipped={this.state.isFlippedA} flipDirection={"horizontal"}>
                             <div onClick={this.handleClickA}>
                                 <CardContent />
                             </div>
+
+                            <div onClick={this.handleClickA}>
+                                <CardContent />
+                            </div>
                         </ReactCardFlip>
                     </div>
                     <div className="col-sm-4">
-                        <ReactCardFlip isFlipped={this.state.isFlippedB} flipDirection={"vertical"}>
+                        <ReactCardFlip isFlipped={this.state.isFlippedB} flipDirection={"horizontal"}>
                             <div onClick={this.handleClickB}>
-                                <CardTitle />
+                                <CardContent />
                             </div>
 
                             <div onClick={this.handleClickB}>
@@ -62,9 +59,9 @@ class Test extends Component {
                         </ReactCardFlip>
                     </div>
                     <div className="col-sm-4">
-                        <ReactCardFlip isFlipped={this.state.isFlippedC} flipDirection={"vertical"}>
+                        <ReactCardFlip isFlipped={this.state.isFlippedC} flipDirection={"horizontal"}>
                             <div onClick={this.handleClickC}>
-                                <CardTitle />
+                                <CardContent />
                             </div>
 
                             <div onClick={this.handleClickC}>
@@ -73,9 +70,9 @@ class Test extends Component {
                         </ReactCardFlip>
                     </div>
                     <div className="col-sm-4">
-                        <ReactCardFlip isFlipped={this.state.isFlippedD} flipDirection={"vertical"}>
+                        <ReactCardFlip isFlipped={this.state.isFlippedD} flipDirection={"horizontal"}>
                             <div onClick={this.handleClickD}>
-                                <CardTitle />
+                                <CardContent />
                             </div>
 
                             <div onClick={this.handleClickD}>

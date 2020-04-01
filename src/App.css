@@ -30,7 +30,8 @@ h1 {
 
 .iconBox{
     justify-content: center;
-    padding: 15px;
+    margin: 10px;
+    padding: 5px;
 }
 
 .iconBox :hover{

@@ -55,7 +55,7 @@ function SkillCard() {
                         <tbody>
                             <tr>
                                 <th scope="col">1</th>
-                                <th scope="col">React JS</th>
+                                <th scope="col">Express JS</th>
                             </tr>
                             <tr>
                                 <th scope="col">2</th>
@@ -63,7 +63,7 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <th scope="col">3</th>
-                                <th scope="col">Express JS</th>
+                                <th scope="col">React JS</th>
                             </tr>
                             <tr>
                                 <th scope="col">4</th>
@@ -95,7 +95,7 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <th scope="col">2</th>
-                                <th scope="col">Android Studio</th>
+                                <th scope="col">Git & GitHub</th>
                             </tr>
                             <tr>
                                 <th scope="col">3</th>
@@ -107,15 +107,15 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <th scope="col">5</th>
-                                <th scope="col">VS Code</th>
+                                <th scope="col">Android Studio</th>
                             </tr>
                             <tr>
                                 <th scope="col">6</th>
-                                <th scope="col">Git & GitHub</th>
+                                <th scope="col">Travis CI</th>
                             </tr>
                             <tr>
                                 <th scope="col">7</th>
-                                <th scope="col">Travis CI</th>
+                                <th scope="col">VS Code</th>
                             </tr>
                         </tbody>
                     </table>

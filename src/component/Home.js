@@ -14,17 +14,17 @@ function Home() {
             </section>
             <section>
                 <div className="section-title">
-                    <h2>About</h2>
+                    <h2>About Me</h2>
                 </div>
                 <div className="section-info">
                     <p>Hi there all, I am currently an Engineering Student at <b>Shri Ramdeobaba College of
                         Engineering and Management, Nagpur</b>. I am a self-taught web developer and a Tech
                         Video Creator with a little love towards E-Sports. I love learning new stuff and
-                        always keen to know (as my name means in Hindi) all the techie things.</p>
+                        always keen to know the techie things.</p>
                     <p>When I am not Coding I use to create Tech Video content and do live streams on YouTube.
                     Creating videos makes me feel blessed and up to date as my content help other tech geeks
                          to learn and explore.</p>
-                    <p>Want to know about me <NavLink to="/more">more</NavLink>!</p>
+                    <p>Want to know about me <NavLink to="/more" style={{ color: "red" }}>more</NavLink>!</p>
                 </div>
             </section>
 
@@ -32,8 +32,9 @@ function Home() {
                 <div className="section-title">
                     <h2>My Skills</h2>
                 </div>
+                <br />
+                <SkillTable />
             </section>
-            <SkillTable />
             <Footer />
         </div>
     )

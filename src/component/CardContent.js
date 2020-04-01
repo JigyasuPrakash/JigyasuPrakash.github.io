@@ -1,24 +1,36 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class SkillCard extends Component {
-    render() {
-        return (
-            <div className="card border-danger mb-3" style={{ color: "white", backgroundColor: "darkslategray" }}>
-                <div className="card-body">
-                    <h5 className="card-header border-danger mb-3"></h5>
-                    <h6 className="card-title"></h6>
-                    <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
-                    voluptatum vel architecto accusantium nisi iure minus. Commodi enim ipsam unde ipsa fuga,
-                    ratione ad blanditiis voluptatibus, doloremque aut quas. Cum.
-                        </p>
-                    <button className="btn"><a href="#"
-                        className="btn card-link text-white bg-dark mb-3">GitHub</a></button>
-                    <button className="btn" ><a href="#" className="btn card-link text-white bg-danger mb-3">Live
-                            Demo</a></button>
-                </div>
-            </div>
-        )
+function CardContent({ project }) {
+
+    let githubButton = null;
+    let liveButton = null;
+
+    const cardTags = project.tags.map(tag => (
+        <img key={tag} src={tag} alt="tags" style={{ margin: "2px" }} />
+    ))
+
+    if (project.github === "#") {
+        githubButton = <button className="btn card-link text-white bg-dark mb-3" disabled>GitHub</button>
+    } else {
+        githubButton = <button className="btn"><a href={project.github} className="btn card-link text-white bg-dark mb-3">GitHub</a> </button>
     }
+    if (project.live === "#") {
+        liveButton = null;
+    } else {
+        liveButton = <button className="btn" ><a href={project.live} className="btn card-link text-white bg-danger mb-3">Live URL</a></button>
+    }
+
+    return (
+        <div className="card border-danger mb-3" style={{ color: "white", backgroundColor: "darkslategray" }}>
+            <div className="card-body">
+                <h5 className="card-header border-danger mb-3"><b>{project.title}</b></h5>
+                <h6 className="card-title">{cardTags}</h6>
+                <p className="card-text">{project.summary}</p>
+                {githubButton}
+                {liveButton}
+            </div>
+        </div>
+    )
 }
 
-export default SkillCard;
+export default CardContent;

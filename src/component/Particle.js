@@ -31,7 +31,7 @@ const particleOptions = {
             "random": true,
             "anim": {
                 "enable": true,
-                "speed": 2,
+                "speed": 5,
                 "size_min": 0.5,
                 "sync": false
             }
