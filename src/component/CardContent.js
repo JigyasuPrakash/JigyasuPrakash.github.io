@@ -12,12 +12,12 @@ function CardContent({ project }) {
     if (project.github === "#") {
         githubButton = <button className="btn card-link text-white bg-dark mb-3" disabled>GitHub</button>
     } else {
-        githubButton = <button className="btn"><a href={project.github} className="btn card-link text-white bg-dark mb-3">GitHub</a> </button>
+        githubButton = <button className="btn"><a href={project.github} target="_blank" rel="noopener noreferrer" className="btn card-link text-white bg-dark mb-3">GitHub</a> </button>
     }
     if (project.live === "#") {
         liveButton = null;
     } else {
-        liveButton = <button className="btn" ><a href={project.live} className="btn card-link text-white bg-danger mb-3">Live URL</a></button>
+        liveButton = <button className="btn" ><a href={project.live} target="_blank" rel="noopener noreferrer" className="btn card-link text-white bg-danger mb-3">Live URL</a></button>
     }
 
     return (

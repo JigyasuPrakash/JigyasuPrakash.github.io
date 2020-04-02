@@ -26,7 +26,7 @@ function Home() {
             ],
             summary: "To visualise the live spread of COVID-19 virus aka Nobel Corona Virus. This projects helps in better visualisation of the spread of the virus as in Real Time.",
             github: "https://github.com/JigyasuPrakash/coronavirus-tracker",
-            live: "https://itsjigyasu.me/coronavirus-tracker"
+            live: "https://projects.itsjigyasu.me/coronavirus-tracker"
         },
         {
             title: "Verve",
@@ -37,7 +37,7 @@ function Home() {
             ],
             summary: "To visualise various Line Clipping Algorithms such as Mid-Point, Cohen Sutherland & Cyrus Beck. Implemnted using p5 JS library and HTML Canvas.",
             github: "https://github.com/JigyasuPrakash/verve",
-            live: "https://itsjigyasu.me/verve/"
+            live: "https://projects.itsjigyasu.me/verve/"
         },
         {
             title: "Graph Search GUI",
@@ -48,7 +48,7 @@ function Home() {
             ],
             summary: "To visualise Breadth First Search Algorithm (BFS) over Romania Map and it is made such a way that this can be expanded for any other set of input.",
             github: "https://github.com/JigyasuPrakash/graph-search-gui",
-            live: "https://itsjigyasu.me/graph-search-gui/"
+            live: "https://projects.itsjigyasu.me/graph-search-gui/"
         },
         {
             title: "FaceSpace",
@@ -59,7 +59,7 @@ function Home() {
                 "https://img.shields.io/badge/-AI-brightgreen"
             ],
             summary: "To provide security to smart phones by constantly monitoring whose in front of device and if a non recognised person is present then it shuts the screen off.",
-            github: "https://github.com/JigyasuPrakash/Beta-FaceSpace",
+            github: "https://projects.github.com/JigyasuPrakash/Beta-FaceSpace",
             live: "#"
         },
     ]
