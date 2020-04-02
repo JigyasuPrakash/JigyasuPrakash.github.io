@@ -4,7 +4,6 @@ import './App.css';
 import NotFoundPage from './component/NotFoundPage';
 import 'w3-css';
 import Header from './component/Header';
-import Particle from './component/Particle'
 import More from './component/More';
 import Projects from './component/Projects';
 import Home from './component/Home';
@@ -14,7 +13,6 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Particle />
         <Header />
         <Route render={({ location }) => (
           <TransitionGroup>
