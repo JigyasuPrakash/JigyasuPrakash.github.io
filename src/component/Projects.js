@@ -18,6 +18,18 @@ function Home() {
             live: "#"
         },
         {
+            title: "Algo Analyst",
+            tags: [
+                "https://img.shields.io/badge/-PHP-brightgreen",
+                "https://img.shields.io/badge/-JavaScript-brightgreen",
+                "https://img.shields.io/badge/-Chart%20JS-brightgreen",
+                "https://img.shields.io/badge/-HTML-brightgreen",
+            ],
+            summary: "To provide a platform to write effecient sorting algorithms. But analysing the execution time utilised by the algorithm for various set of input.",
+            github: "https://github.com/JigyasuPrakash/algo-analyst",
+            live: "https://algo-analyst-git-algoanalyst.apps.ca-central-1.starter.openshift-online.com/"
+        },
+        {
             title: "Coronavirus Live Tracker",
             tags: [
                 "https://img.shields.io/badge/-JavaScript-brightgreen",
@@ -64,6 +76,28 @@ function Home() {
         },
     ]
 
+    // const preview = [
+    //     {
+    //         title: "HasteUp",
+    //         media: ""
+    //     },
+    //     {
+    //         title: "Coronavirus Live Tracker",
+    //         media: ""
+    //     },
+    //     {
+    //         title: "Verve",
+    //         media: ""
+    //     },
+    //     {
+    //         title: "Graph Search GUI",
+    //         media: ""
+    //     },
+    //     {
+    //         title: "FaceSpace",
+    //         media: ""
+    //     },
+    // ]
     const cardCreated = projects.map(project => (
         <div key={project.title} className="col-sm-4">
             <CardContent project={project} />
