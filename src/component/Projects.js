@@ -27,7 +27,7 @@ function Home() {
             ],
             summary: "To provide a platform to write effecient sorting algorithms. But analysing the execution time utilised by the algorithm for various set of input.",
             github: "https://github.com/JigyasuPrakash/algo-analyst",
-            live: "https://algo-analyst-git-algoanalyst.apps.ca-central-1.starter.openshift-online.com/"
+            live: "http://algo-analyst-algoanalyst.apps.ca-central-1.starter.openshift-online.com/"
         },
         {
             title: "Coronavirus Live Tracker",
