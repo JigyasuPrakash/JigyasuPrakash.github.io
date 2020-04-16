@@ -18,16 +18,16 @@ function Home() {
             live: "#"
         },
         {
-            title: "Algo Analyst",
+            title: "On Looker",
             tags: [
-                "https://img.shields.io/badge/-PHP-brightgreen",
                 "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-Chart%20JS-brightgreen",
-                "https://img.shields.io/badge/-HTML-brightgreen",
+                "https://img.shields.io/badge/-Express%20JS-brightgreen",
+                "https://img.shields.io/badge/-Tesseract%20JS-brightgreen",
+                "https://img.shields.io/badge/-MongoDB-brightgreen"
             ],
-            summary: "To provide a platform to write effecient sorting algorithms. But analysing the execution time utilised by the algorithm for various set of input.",
-            github: "https://github.com/JigyasuPrakash/algo-analyst",
-            live: "http://algo-analyst-algoanalyst.apps.ca-central-1.starter.openshift-online.com/"
+            summary: "Image search engine using text as imput to find relevent images. Built using express server and Tesseract JS. Searching the keyword uses regex for better output",
+            github: "https://github.com/JigyasuPrakash/on-looker",
+            live: "https://on-looker.herokuapp.com/"
         },
         {
             title: "Coronavirus Live Tracker",
@@ -61,6 +61,18 @@ function Home() {
             summary: "To visualise Breadth First Search Algorithm (BFS) over Romania Map and it is made such a way that this can be expanded for any other set of input.",
             github: "https://github.com/JigyasuPrakash/graph-search-gui",
             live: "https://projects.itsjigyasu.me/graph-search-gui/"
+        },
+        {
+            title: "Algo Analyst",
+            tags: [
+                "https://img.shields.io/badge/-PHP-brightgreen",
+                "https://img.shields.io/badge/-JavaScript-brightgreen",
+                "https://img.shields.io/badge/-Chart%20JS-brightgreen",
+                "https://img.shields.io/badge/-HTML-brightgreen",
+            ],
+            summary: "To provide a platform to write effecient sorting algorithms. But analysing the execution time utilised by the algorithm for various set of input.",
+            github: "https://github.com/JigyasuPrakash/algo-analyst",
+            live: "http://algo-analyst-algoanalyst.apps.ca-central-1.starter.openshift-online.com/"
         },
         {
             title: "FaceSpace",
