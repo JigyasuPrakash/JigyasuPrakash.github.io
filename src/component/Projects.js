@@ -6,16 +6,16 @@ function Home() {
 
     const projects = [
         {
-            title: "HasteUp",
+            title: "G-Calendar Manager",
             tags: [
                 "https://img.shields.io/badge/-JavaScript-brightgreen",
                 "https://img.shields.io/badge/-Express%20JS-brightgreen",
-                "https://img.shields.io/badge/-Passport%20JS-brightgreen",
-                "https://img.shields.io/badge/-MongoDB-brightgreen"
+                "https://img.shields.io/badge/-Google%20API-brightgreen",
+                "https://img.shields.io/badge/-Node%20JS-brightgreen"
             ],
-            summary: "To collect various data from various public APIs and use data visualization to create meaningfull results.Currently this project is uder development.",
-            github: "#",
-            live: "#"
+            summary: "A web application which helps in managing google calendar events by showing upcoming events and to create new events and share with colleages and friends.",
+            github: "https://github.com/JigyasuPrakash/g-calendar-manager",
+            live: "http://gcalendar.openode.io/"
         },
         {
             title: "On Looker",
@@ -25,7 +25,7 @@ function Home() {
                 "https://img.shields.io/badge/-Tesseract%20JS-brightgreen",
                 "https://img.shields.io/badge/-MongoDB-brightgreen"
             ],
-            summary: "Image search engine using text as imput to find relevent images. Built using express server and Tesseract JS. Searching the keyword uses regex for better output",
+            summary: "Image search engine using text as input to find relevent images. Built using express server and Tesseract JS. Searching the keyword uses regex for better output",
             github: "https://github.com/JigyasuPrakash/on-looker",
             live: "https://on-looker.herokuapp.com/"
         },
