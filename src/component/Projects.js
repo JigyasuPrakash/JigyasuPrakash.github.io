@@ -6,6 +6,29 @@ function Home() {
 
     const projects = [
         {
+            title: "Haste Up",
+            tags: [
+                "https://img.shields.io/badge/-React%20JS-brightgreen",
+                "https://img.shields.io/badge/-Express%20JS-brightgreen",
+                "https://img.shields.io/badge/-MongoDB-brightgreen",
+                "https://img.shields.io/badge/-Material%20UI-brightgreen"
+            ],
+            summary: "Full MERN ( MongoDB - ExpressJS - ReactJS - NodeJS ) stack project build to showcase mock colleges data which are fetched from RESTful APIs hosted on Heroku.",
+            github: "https://github.com/JigyasuPrakash/haste-up",
+            live: "https://haste-up.web.app/"
+        },
+        {
+            title: "Coronavirus Live Tracker",
+            tags: [
+                "https://img.shields.io/badge/-JavaScript-brightgreen",
+                "https://img.shields.io/badge/-ARCGIS%20API-brightgreen",
+                "https://img.shields.io/badge/-Chart%20JS-brightgreen"
+            ],
+            summary: "To visualise the live spread of COVID-19 virus aka Nobel Corona Virus. This projects helps in better visualisation of the spread of the virus as in Real Time.",
+            github: "https://github.com/JigyasuPrakash/coronavirus-tracker",
+            live: "https://projects.itsjigyasu.me/coronavirus-tracker"
+        },
+        {
             title: "G-Calendar Manager",
             tags: [
                 "https://img.shields.io/badge/-JavaScript-brightgreen",
@@ -28,17 +51,6 @@ function Home() {
             summary: "Image search engine using text as input to find relevent images. Built using express server and Tesseract JS. Searching the keyword uses regex for better output",
             github: "https://github.com/JigyasuPrakash/on-looker",
             live: "https://on-looker.herokuapp.com/"
-        },
-        {
-            title: "Coronavirus Live Tracker",
-            tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-ARCGIS%20API-brightgreen",
-                "https://img.shields.io/badge/-Chart%20JS-brightgreen"
-            ],
-            summary: "To visualise the live spread of COVID-19 virus aka Nobel Corona Virus. This projects helps in better visualisation of the spread of the virus as in Real Time.",
-            github: "https://github.com/JigyasuPrakash/coronavirus-tracker",
-            live: "https://projects.itsjigyasu.me/coronavirus-tracker"
         },
         {
             title: "Verve",
