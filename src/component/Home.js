@@ -9,7 +9,7 @@ function Home() {
             <section className="home">
                 <div>
                     <h1>Jigyasu Prakash</h1>
-                    <h3>| Programmer | Developer | Tech-Video-Creator |</h3>
+                    <h3>| Tech Enthu | Programmer | Full Stack Web Developer |</h3>
                 </div>
             </section>
             <section>
