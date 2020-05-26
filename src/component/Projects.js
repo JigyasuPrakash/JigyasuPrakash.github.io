@@ -18,17 +18,6 @@ function Home() {
             live: "https://haste-up.web.app/"
         },
         {
-            title: "Coronavirus Live Tracker",
-            tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-ARCGIS%20API-brightgreen",
-                "https://img.shields.io/badge/-Chart%20JS-brightgreen"
-            ],
-            summary: "To visualise the live spread of COVID-19 virus aka Nobel Corona Virus. This projects helps in better visualisation of the spread of the virus as in Real Time.",
-            github: "https://github.com/JigyasuPrakash/coronavirus-tracker",
-            live: "https://projects.itsjigyasu.me/coronavirus-tracker"
-        },
-        {
             title: "G-Calendar Manager",
             tags: [
                 "https://img.shields.io/badge/-JavaScript-brightgreen",
@@ -39,6 +28,17 @@ function Home() {
             summary: "A web application which helps in managing google calendar events by showing upcoming events and to create new events and share with colleages and friends.",
             github: "https://github.com/JigyasuPrakash/g-calendar-manager",
             live: "http://gcalendar.openode.io/"
+        },
+        {
+            title: "Coronavirus Live Tracker",
+            tags: [
+                "https://img.shields.io/badge/-JavaScript-brightgreen",
+                "https://img.shields.io/badge/-ARCGIS%20API-brightgreen",
+                "https://img.shields.io/badge/-Chart%20JS-brightgreen"
+            ],
+            summary: "To visualise the live spread of COVID-19 virus aka Nobel Corona Virus. This projects helps in better visualisation of the spread of the virus as in Real Time.",
+            github: "https://github.com/JigyasuPrakash/coronavirus-tracker",
+            live: "https://projects.itsjigyasu.me/coronavirus-tracker"
         },
         {
             title: "On Looker",

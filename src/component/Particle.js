@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 const particleOptions = {
     "particles": {
         "number": {
-            "value": 150,
+            "value": 130,
             "density": {
                 "enable": false
             }

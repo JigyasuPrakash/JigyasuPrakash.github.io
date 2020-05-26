@@ -31,14 +31,10 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>R</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
                                 <td>HTML / CSS</td>
                             </tr>
                             <tr>
-                                <td>7</td>
+                                <td>6</td>
                                 <td>C / C++</td>
                             </tr>
                             <tr>

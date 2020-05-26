@@ -27,79 +27,79 @@ function More() {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col">1</th>
-                                <th scope="col">Facebook</th>
-                                <th scope="col"><a href="https://www.facebook.com/jigyasu.prakash.5" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon size="lg" icon={faFacebookF} /></a></th>
+                                <td>1</td>
+                                <td>Facebook</td>
+                                <td><a href="https://www.facebook.com/jigyasu.prakash.5" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon size="lg" icon={faFacebookF} /></a></td>
                             </tr>
                             <tr>
-                                <th scope="col">2</th>
-                                <th scope="col">Instagram</th>
-                                <th scope="col"><a href="https://www.instagram.com/jprak_arts" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon size="lg" icon={faInstagram} /></a></th>
+                                <td>2</td>
+                                <td>Instagram</td>
+                                <td><a href="https://www.instagram.com/jprak_arts" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon size="lg" icon={faInstagram} /></a></td>
                             </tr>
                             <tr>
-                                <th scope="col">3</th>
-                                <th scope="col">LinkedIn</th>
-                                <th scope="col"><a href="https://www.linkedin.com/in/jigyasuprakash/" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon size="lg" icon={faLinkedin} /></a></th>
+                                <td>3</td>
+                                <td>LinkedIn</td>
+                                <td><a href="https://www.linkedin.com/in/jigyasuprakash/" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon size="lg" icon={faLinkedin} /></a></td>
                             </tr>
                             <tr>
-                                <th scope="col">4</th>
-                                <th scope="col">Twitter</th>
-                                <th scope="col"><a href="https://twitter.com/jigyasu1505" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon size="lg" icon={faTwitter} /></a></th>
+                                <td>4</td>
+                                <td>Twitter</td>
+                                <td><a href="https://twitter.com/jigyasu1505" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon size="lg" icon={faTwitter} /></a></td>
                             </tr>
                             <tr>
-                                <th scope="col">5</th>
-                                <th scope="col">Github</th>
-                                <th scope="col"><a href="https://github.com/JigyasuPrakash" target="_blank" rel="noopener noreferrer">
+                                <td>5</td>
+                                <td>GitHub</td>
+                                <th><a href="https://github.com/JigyasuPrakash" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon size="lg" icon={faGithub} /></a></th>
                             </tr>
                             <tr>
-                                <th scope="col">6</th>
-                                <th scope="col">HackerRank</th>
-                                <th scope="col"><a href="https://www.hackerrank.com/jigyasuprakash3" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon size="lg" icon={faHackerrank} /></a></th>
+                                <td>6</td>
+                                <td>HackerRank</td>
+                                <td><a href="https://www.hackerrank.com/jigyasuprakash3" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon size="lg" icon={faHackerrank} /></a></td>
                             </tr>
                             <tr>
-                                <th scope="col">7</th>
-                                <th scope="col">HackerEarth</th>
-                                <th scope="col">
+                                <td>7</td>
+                                <td>HackerEarth</td>
+                                <td>
                                     <a href="https://www.hackerearth.com/@jigyasuprakash3" target="_blank" rel="noopener noreferrer"><img
                                         src={HackerEarth} alt="hackerrank" /></a>
-                                </th>
+                                </td>
                             </tr>
                             <tr>
-                                <th scope="col">8</th>
-                                <th scope="col">CodeChef</th>
-                                <th scope="col">
+                                <td>8</td>
+                                <td>CodeChef</td>
+                                <td>
                                     <a href="https://www.codechef.com/users/jprak121" target="_blank" rel="noopener noreferrer"><img
                                         src={CodeChef} alt="codechef" /></a>
-                                </th>
+                                </td>
                             </tr>
                             <tr>
-                                <th scope="col">9</th>
-                                <th scope="col">CodeForces</th>
-                                <th scope="col">
+                                <td>9</td>
+                                <td>CodeForces</td>
+                                <td>
                                     <a href="http://codeforces.com/profile/Jprak121" target="_blank" rel="noopener noreferrer"><img
                                         src={CodeForces} style={{ backgroundColor: "white", padding: "1px" }} alt="codeforces" /></a>
-                                </th>
+                                </td>
                             </tr>
                             <tr>
-                                <th scope="col">10</th>
-                                <th scope="col">Sourcerer</th>
-                                <th scope="col">
+                                <td>10</td>
+                                <td>Sourcerer</td>
+                                <td>
                                     <a href="https://sourcerer.io/jprak121" target="_blank" rel="noopener noreferrer"><img
                                         src="https://sourcerer.io/icons/logo-sharing.svg" height="20px" alt="Sourcerer" /></a>
-                                </th>
+                                </td>
                             </tr>
                             <tr>
-                                <th scope="col">11</th>
-                                <th scope="col">Mail</th>
-                                <th scope="col"><a href="mailto: jprakash150599@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <td>11</td>
+                                <td>Mail</td>
+                                <td><a href="mailto: jprakash150599@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon size="lg" icon={faEnvelope} />
-                                </a></th>
+                                </a></td>
                             </tr>
                         </tbody>
                     </table>
