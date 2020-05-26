@@ -14,32 +14,36 @@ function SkillCard() {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col">1</th>
-                                <th scope="col">JavaScript</th>
+                                <td>1</td>
+                                <td>TypeScript</td>
                             </tr>
                             <tr>
-                                <th scope="col">2</th>
-                                <th scope="col">Java</th>
+                                <td>2</td>
+                                <td>JavaScript</td>
                             </tr>
                             <tr>
-                                <th scope="col">3</th>
-                                <th scope="col">Python</th>
+                                <td>3</td>
+                                <td>Java</td>
                             </tr>
                             <tr>
-                                <th scope="col">4</th>
-                                <th scope="col">R</th>
+                                <td>4</td>
+                                <td>Python</td>
                             </tr>
                             <tr>
-                                <th scope="col">5</th>
-                                <th scope="col">HTML / CSS</th>
+                                <td>5</td>
+                                <td>R</td>
                             </tr>
                             <tr>
-                                <th scope="col">6</th>
-                                <th scope="col">C / C++</th>
+                                <td>6</td>
+                                <td>HTML / CSS</td>
                             </tr>
                             <tr>
-                                <th scope="col">7</th>
-                                <th scope="col">Go</th>
+                                <td>7</td>
+                                <td>C / C++</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Go</td>
                             </tr>
                         </tbody>
                     </table>
@@ -54,28 +58,28 @@ function SkillCard() {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col">1</th>
-                                <th scope="col">Express JS</th>
+                                <td>1</td>
+                                <td>Express JS</td>
                             </tr>
                             <tr>
-                                <th scope="col">2</th>
-                                <th scope="col">Node JS</th>
+                                <td>2</td>
+                                <td>Node JS</td>
                             </tr>
                             <tr>
-                                <th scope="col">3</th>
-                                <th scope="col">React JS</th>
+                                <td>3</td>
+                                <td>React JS</td>
                             </tr>
                             <tr>
-                                <th scope="col">4</th>
-                                <th scope="col">p5 JS</th>
+                                <td>4</td>
+                                <td>p5 JS</td>
                             </tr>
                             <tr>
-                                <th scope="col">5</th>
-                                <th scope="col">jQuery</th>
+                                <td>5</td>
+                                <td>jQuery</td>
                             </tr>
                             <tr>
-                                <th scope="col">6</th>
-                                <th scope="col">BootStrap</th>
+                                <td>6</td>
+                                <td>BootStrap</td>
                             </tr>
                         </tbody>
                     </table>
@@ -90,32 +94,32 @@ function SkillCard() {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col">1</th>
-                                <th scope="col">Bash/Shell</th>
+                                <td>1</td>
+                                <td>Bash/Shell</td>
                             </tr>
                             <tr>
-                                <th scope="col">2</th>
-                                <th scope="col">Git & GitHub</th>
+                                <td>2</td>
+                                <td>Git & GitHub</td>
                             </tr>
                             <tr>
-                                <th scope="col">3</th>
-                                <th scope="col">PyCharm</th>
+                                <td>3</td>
+                                <td>PyCharm</td>
                             </tr>
                             <tr>
-                                <th scope="col">4</th>
-                                <th scope="col">R-Studio</th>
+                                <td>4</td>
+                                <td>R-Studio</td>
                             </tr>
                             <tr>
-                                <th scope="col">5</th>
-                                <th scope="col">Android Studio</th>
+                                <td>5</td>
+                                <td>Android Studio</td>
                             </tr>
                             <tr>
-                                <th scope="col">6</th>
-                                <th scope="col">Travis CI</th>
+                                <td>6</td>
+                                <td>Travis CI</td>
                             </tr>
                             <tr>
-                                <th scope="col">7</th>
-                                <th scope="col">VS Code</th>
+                                <td>7</td>
+                                <td>VS Code</td>
                             </tr>
                         </tbody>
                     </table>
@@ -130,24 +134,24 @@ function SkillCard() {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col">1</th>
-                                <th scope="col">MySQL</th>
+                                <td>1</td>
+                                <td>MySQL</td>
                             </tr>
                             <tr>
-                                <th scope="col">2</th>
-                                <th scope="col">PostgreSQL</th>
+                                <td>2</td>
+                                <td>PostgreSQL</td>
                             </tr>
                             <tr>
-                                <th scope="col">3</th>
-                                <th scope="col">Firestore</th>
+                                <td>3</td>
+                                <td>Firestore</td>
                             </tr>
                             <tr>
-                                <th scope="col">4</th>
-                                <th scope="col">MongoDB</th>
+                                <td>4</td>
+                                <td>MongoDB</td>
                             </tr>
                             <tr>
-                                <th scope="col">5</th>
-                                <th scope="col">Oracle 11g</th>
+                                <td>5</td>
+                                <td>Oracle 11g</td>
                             </tr>
                         </tbody>
                     </table>
@@ -163,16 +167,16 @@ function SkillCard() {
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="col">1</th>
-                                <th scope="col">Firebase</th>
+                                <td>1</td>
+                                <td>Firebase</td>
                             </tr>
                             <tr>
-                                <th scope="col">2</th>
-                                <th scope="col">AWS</th>
+                                <td>2</td>
+                                <td>AWS</td>
                             </tr>
                             <tr>
-                                <th scope="col">3</th>
-                                <th scope="col">Heroku</th>
+                                <td>3</td>
+                                <td>Heroku</td>
                             </tr>
                         </tbody>
                     </table>
