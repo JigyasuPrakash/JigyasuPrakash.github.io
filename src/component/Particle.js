@@ -4,13 +4,13 @@ import Particles from 'react-particles-js';
 const particleOptions = {
     "particles": {
         "number": {
-            "value": 130,
+            "value": 140,
             "density": {
                 "enable": false
             }
         },
         "color": {
-            "value": "#ff0000"
+            "value": "#0275d8"
         },
         "shape": {
             "type": "circle",

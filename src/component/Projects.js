@@ -8,10 +8,10 @@ function Home() {
         {
             title: "Haste Up",
             tags: [
-                "https://img.shields.io/badge/-React%20JS-brightgreen",
-                "https://img.shields.io/badge/-Express%20JS-brightgreen",
-                "https://img.shields.io/badge/-MongoDB-brightgreen",
-                "https://img.shields.io/badge/-Material%20UI-brightgreen"
+                "https://img.shields.io/badge/-React%20JS-blue",
+                "https://img.shields.io/badge/-Express%20JS-blue",
+                "https://img.shields.io/badge/-MongoDB-blue",
+                "https://img.shields.io/badge/-Material%20UI-blue"
             ],
             summary: "Full MERN ( MongoDB - ExpressJS - ReactJS - NodeJS ) stack project build to showcase mock colleges data which are fetched from RESTful APIs hosted on Heroku.",
             github: "https://github.com/JigyasuPrakash/haste-up",
@@ -20,10 +20,10 @@ function Home() {
         {
             title: "G-Calendar Manager",
             tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-Express%20JS-brightgreen",
-                "https://img.shields.io/badge/-Google%20API-brightgreen",
-                "https://img.shields.io/badge/-Node%20JS-brightgreen"
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-Express%20JS-blue",
+                "https://img.shields.io/badge/-Google%20API-blue",
+                "https://img.shields.io/badge/-Node%20JS-blue"
             ],
             summary: "A web application which helps in managing google calendar events by showing upcoming events and to create new events and share with colleages and friends.",
             github: "https://github.com/JigyasuPrakash/g-calendar-manager",
@@ -32,9 +32,9 @@ function Home() {
         {
             title: "Coronavirus Live Tracker",
             tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-ARCGIS%20API-brightgreen",
-                "https://img.shields.io/badge/-Chart%20JS-brightgreen"
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-ARCGIS%20API-blue",
+                "https://img.shields.io/badge/-Chart%20JS-blue"
             ],
             summary: "To visualise the live spread of COVID-19 virus aka Nobel Corona Virus. This projects helps in better visualisation of the spread of the virus as in Real Time.",
             github: "https://github.com/JigyasuPrakash/coronavirus-tracker",
@@ -43,10 +43,10 @@ function Home() {
         {
             title: "On Looker",
             tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-Express%20JS-brightgreen",
-                "https://img.shields.io/badge/-Tesseract%20JS-brightgreen",
-                "https://img.shields.io/badge/-MongoDB-brightgreen"
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-Express%20JS-blue",
+                "https://img.shields.io/badge/-Tesseract%20JS-blue",
+                "https://img.shields.io/badge/-MongoDB-blue"
             ],
             summary: "Image search engine using text as input to find relevent images. Built using express server and Tesseract JS. Searching the keyword uses regex for better output",
             github: "https://github.com/JigyasuPrakash/on-looker",
@@ -55,9 +55,9 @@ function Home() {
         {
             title: "Verve",
             tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-p5%20JS-brightgreen",
-                "https://img.shields.io/badge/-HTML%20Canvas-brightgreen"
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-p5%20JS-blue",
+                "https://img.shields.io/badge/-HTML%20Canvas-blue"
             ],
             summary: "To visualise various Line Clipping Algorithms such as Mid-Point, Cohen Sutherland & Cyrus Beck. Implemnted using p5 JS library and HTML Canvas.",
             github: "https://github.com/JigyasuPrakash/verve",
@@ -66,9 +66,9 @@ function Home() {
         {
             title: "Graph Search GUI",
             tags: [
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-p5%20JS-brightgreen",
-                "https://img.shields.io/badge/-HTML%20Canvas-brightgreen"
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-p5%20JS-blue",
+                "https://img.shields.io/badge/-HTML%20Canvas-blue"
             ],
             summary: "To visualise Breadth First Search Algorithm (BFS) over Romania Map and it is made such a way that this can be expanded for any other set of input.",
             github: "https://github.com/JigyasuPrakash/graph-search-gui",
@@ -77,10 +77,10 @@ function Home() {
         {
             title: "Algo Analyst",
             tags: [
-                "https://img.shields.io/badge/-PHP-brightgreen",
-                "https://img.shields.io/badge/-JavaScript-brightgreen",
-                "https://img.shields.io/badge/-Chart%20JS-brightgreen",
-                "https://img.shields.io/badge/-HTML-brightgreen",
+                "https://img.shields.io/badge/-PHP-blue",
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-Chart%20JS-blue",
+                "https://img.shields.io/badge/-HTML-blue",
             ],
             summary: "To provide a platform to write effecient sorting algorithms. But analysing the execution time utilised by the algorithm for various set of input.",
             github: "https://github.com/JigyasuPrakash/algo-analyst",
@@ -89,10 +89,10 @@ function Home() {
         {
             title: "FaceSpace",
             tags: [
-                "https://img.shields.io/badge/-Java-brightgreen",
-                "https://img.shields.io/badge/-Android-brightgreen",
-                "https://img.shields.io/badge/-TensorFlow-brightgreen",
-                "https://img.shields.io/badge/-AI-brightgreen"
+                "https://img.shields.io/badge/-Java-blue",
+                "https://img.shields.io/badge/-Android-blue",
+                "https://img.shields.io/badge/-TensorFlow-blue",
+                "https://img.shields.io/badge/-AI-blue"
             ],
             summary: "To provide security to smart phones by constantly monitoring whose in front of device and if a non recognised person is present then it shuts the screen off.",
             github: "https://projects.github.com/JigyasuPrakash/Beta-FaceSpace",

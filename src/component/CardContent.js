@@ -17,11 +17,11 @@ function CardContent({ project }) {
     if (project.live === "#") {
         liveButton = null;
     } else {
-        liveButton = <button className="btn" ><a href={project.live} target="_blank" rel="noopener noreferrer" className="btn card-link text-white bg-danger mb-3">Live URL</a></button>
+        liveButton = <button className="btn" ><a href={project.live} target="_blank" rel="noopener noreferrer" className="btn card-link text-white bg-primary mb-3">Live URL</a></button>
     }
 
     return (
-        <div className="card border-danger mb-3" style={{ color: "white", backgroundColor: "darkslategray" }}>
+        <div className="card border-primary mb-3" style={{ color: "white", backgroundColor: "darkslategray" }}>
             <div className="card-body">
                 <h5 className="card-header border-danger mb-3"><b>{project.title}</b></h5>
                 <h6 className="card-title">{cardTags}</h6>
