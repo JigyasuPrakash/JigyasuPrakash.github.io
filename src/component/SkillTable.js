@@ -75,6 +75,10 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>6</td>
+                                <td>React Native</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
                                 <td>BootStrap</td>
                             </tr>
                         </tbody>

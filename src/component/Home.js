@@ -24,7 +24,7 @@ function Home() {
                     <p>When I am not Coding I use to create Tech Video content and do live streams on YouTube.
                     Creating videos makes me feel blessed and up to date as my content help other tech geeks
                          to learn and explore.</p>
-                    <p>Want to know about me <NavLink to="/more" style={{ color: "red" }}>more</NavLink>!</p>
+                    <p>Want to know about me <NavLink to="/more" style={{ color: "#0275ff" }}>more</NavLink>!</p>
                 </div>
             </section>
 
