@@ -23,7 +23,7 @@ function CardContent({ project }) {
     return (
         <div className="card border-primary mb-3" style={{ color: "white", backgroundColor: "darkslategray" }}>
             <div className="card-body">
-                <h5 className="card-header border-danger mb-3"><b>{project.title}</b></h5>
+                <h5 className="card-header border-primary mb-3"><b>{project.title}</b></h5>
                 <h6 className="card-title">{cardTags}</h6>
                 <p className="card-text">{project.summary}</p>
                 {githubButton}

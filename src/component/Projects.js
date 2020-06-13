@@ -6,6 +6,17 @@ function Home() {
 
     const projects = [
         {
+            title: "ProperGator",
+            tags: [
+                "https://img.shields.io/badge/-HTML-blue",
+                "https://img.shields.io/badge/-JavaScript-blue",
+                "https://img.shields.io/badge/-Machine%20Learning-blue",
+            ],
+            summary: "A platform which uses ML and CV for serving Ads, Propergator use a camera to do realtime analysis of audience present infront of digital signage and target ads for them.",
+            github: "https://github.com/JigyasuPrakash/ProperGator-1",
+            live: "https://propergator.netlify.app/"
+        },
+        {
             title: "Haste Up",
             tags: [
                 "https://img.shields.io/badge/-React%20JS-blue",
