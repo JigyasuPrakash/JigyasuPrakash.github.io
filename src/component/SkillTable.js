@@ -31,7 +31,7 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>HTML / CSS</td>
+                                <td>HTML5 / CSS3</td>
                             </tr>
                             <tr>
                                 <td>6</td>
@@ -151,7 +151,7 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Oracle 11g</td>
+                                <td>Oracle 11G</td>
                             </tr>
                         </tbody>
                     </table>
@@ -177,6 +177,10 @@ function SkillCard() {
                             <tr>
                                 <td>3</td>
                                 <td>Heroku</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>NGINX</td>
                             </tr>
                         </tbody>
                     </table>
