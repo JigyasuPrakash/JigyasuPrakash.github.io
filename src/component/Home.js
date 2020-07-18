@@ -28,6 +28,23 @@ function Home() {
                 </div>
             </section>
 
+            {/* <section>
+                <div className="section-title">
+                    <h2>Experience</h2>
+                </div>
+                <div className="section-info">
+                    <p>Full Stack Web Development Intern @ QuotesNStories :
+                        </p>
+                    <p>
+                        Worked as a Full Stack Web Development Intern, and my responsibilities includes working
+                        on MERN (MySQL, Express JS, ReactJS, NodeJS) stack and creating, modifying and debug
+                        various parts of existing codebase, I was able to reduce complexity of various
+                        functionalities which reduced the execution time by 20 to 30%.
+                        </p>
+
+                </div>
+            </section> */}
+
             <section>
                 <div className="section-title">
                     <h2>My Skills</h2>
