@@ -9,6 +9,7 @@ import Projects from "./component/Projects";
 import Home from "./component/Home";
 import Particle from "./component/Particle";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import Glories from "./component/Glories";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
                   <Route exact path="/" component={Home} />
                   <Route path="/projects" component={Projects} />
                   <Route path="/more" component={More} />
+                  <Route path="/glories" component={Glories} />
                   <Route path="/404" component={NotFoundPage} />
                   <Redirect to="/404" />
                 </Switch>
