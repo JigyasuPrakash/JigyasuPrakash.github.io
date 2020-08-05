@@ -1,12 +1,5 @@
 import React from 'react';
 import Footer from './Footer';
-import MyPDFViewer from './MyPDFViewer';
-import ICPC from '../files/ICPC2019.pdf';
-import Java from '../files/JavaBusinessCertificate.pdf';
-import Git from '../files/GitCertificate.pdf';
-import Python from '../files/PythonCertificate.pdf';
-import BlockChain from '../files/BlockChain.pdf';
-import Uday from '../files/UdayFintech.pdf';
 
 function Glories() {
 
@@ -56,8 +49,8 @@ function Glories() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Mar 2020</td>
-                                <td>Selected as Finalist for Smart India Hackathon 2020, Software Edition</td>
+                                <td>Aug 2020</td>
+                                <td>Winner of Smart India Hackathon 2020, Software Edition</td>
                             </tr>
                             <tr>
                                 <td>Feb 2020</td>
@@ -74,31 +67,57 @@ function Glories() {
 
             <section>
                 <div className="section-title">
-                    <h1><u>Certificates</u></h1>
+                    <h1><u>Gallery</u></h1>
                 </div>
                 <center>
                     <div className="row" style={{ justifyContent: "center", margin: "35px" }}>
                         <div className="col-5">
-                            <MyPDFViewer pdf={BlockChain} />
-                        </div>
-                        <div className="col-5">
-                            <MyPDFViewer pdf={ICPC} />
-                        </div>
-                    </div>
-                    <div className="row" style={{ justifyContent: "center", margin: "35px" }}>
-                        <div className="col-5">
-                            <MyPDFViewer pdf={Uday} />
-                        </div>
-                        <div className="col-5">
-                            <MyPDFViewer pdf={Java} />
+                            <img
+                                src="./assets/files/Internship.jpg"
+                                alt="Letter of Recommendation Certificate"
+                                width="100%" />
                         </div>
                     </div>
                     <div className="row" style={{ justifyContent: "center", margin: "35px" }}>
                         <div className="col-5">
-                            <MyPDFViewer pdf={Python} />
+                            <img
+                                src="./assets/files/BlockChain.jpg"
+                                alt="Blockchain Coursera Certificate"
+                                width="100%" />
                         </div>
                         <div className="col-5">
-                            <MyPDFViewer pdf={Git} />
+                            <img
+                                src="./assets/files/ICPC2019.jpg"
+                                alt="ICPC 2019 Certificate"
+                                width="100%" />
+                        </div>
+                    </div>
+                    <div className="row" style={{ justifyContent: "center", margin: "35px" }}>
+                        <div className="col-5">
+                            <img
+                                src="./assets/files/UdayFintech.jpg"
+                                alt="Uday Fintech Certificate"
+                                width="100%" />
+                        </div>
+                        <div className="col-5">
+                            <img
+                                src="./assets/files/JavaBusinessCertificate.jpg"
+                                alt="JAVA Business Application Certificate"
+                                width="100%" />
+                        </div>
+                    </div>
+                    <div className="row" style={{ justifyContent: "center", margin: "35px" }}>
+                        <div className="col-5">
+                            <img
+                                src="./assets/files/PythonCertificate.jpg"
+                                alt="Python Certificate"
+                                width="100%" />
+                        </div>
+                        <div className="col-5">
+                            <img
+                                src="./assets/files/GitCertificate.jpg"
+                                alt="Git Certificate"
+                                width="100%" />
                         </div>
                     </div>
                 </center>
