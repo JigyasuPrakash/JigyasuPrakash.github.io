@@ -19,7 +19,7 @@ function Home() {
                 <div className="section-info">
                     <p>Hi there, I am currently Final Year Engineering Student at <b>Shri Ramdeobaba College of
                         Engineering and Management, Nagpur</b>. I am a self-taught full stack web developer and
-                        a Tech Video Creator with a little love towards E-Sports. I love learning new stuff and
+                        a Tech Video Creator with a little affection towards E-Sports. I love learning new stuff and
                         always keen to know the techie things.</p>
                     <p>When I am not Coding I use to create Tech Video content and do live streams on YouTube.
                     Creating videos makes me feel blessed and up to date as my content help other tech geeks
