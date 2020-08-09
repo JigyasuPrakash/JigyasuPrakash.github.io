@@ -1,61 +1,76 @@
 import React from 'react';
-import Footer from './Footer';
-import { FlexiImageGrid } from 'react-flexi-image-grid';
+import MyGallery from 'react-grid-gallery';
 
 function Gallery() {
 
-    const images = [
-        {
-            src: "./assets/files/Internship.jpg",
-            alt: "Letter of Recommendation",
-            className: "img1",
-            id: "idImg1"
-        }, {
-            src: "./assets/files/JavaBusinessCertificate.jpg",
-            alt: "Java Business Application Certificate",
-            className: "img4",
-            id: "idImg4"
-        }, {
-            src: "./assets/files/UdayFintech.jpg",
-            alt: "Uday Fintech Certificate",
-            className: "img9",
-            id: "idImg9"
-        }, {
-            src: "./assets/files/SIH.jpg",
-            alt: "Smart India Hackathon 2020",
-            className: "img2",
-            id: "idImg2"
-        }, {
-            src: "./assets/files/BlockChain.jpg",
-            alt: "Blockchain Coursera Certificate",
-            className: "img7",
-            id: "idImg7"
-        }, {
-            src: "./assets/files/GitCertificate.jpg",
-            alt: "Git Certificate",
-            className: "img6",
-            id: "idImg6"
-        }, {
-            src: "./assets/files/new_world_order.jpeg",
-            alt: "New World Order SIH2020",
-            className: "img3",
-            id: "idImg3"
-        }, {
-            src: "./assets/files/ICPC2019.jpg",
-            alt: "ICPC 2019 Certificate",
-            className: "img8",
-            id: "idImg8"
-        }, {
-            src: "./assets/files/PythonCertificate.jpg",
-            alt: "Python Certificate",
-            className: "img5",
-            id: "idImg5"
-        }
-    ];
-
-    const onClickHandler = (e) => {
-        window.open(e.target.src, "_blank")
+    const images1 = [{
+        src: "./assets/files/Internship.jpg",
+        thumbnail: "./assets/files/Internship.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "QuotesNStories Recommendation Letter"
+    }, {
+        src: "./assets/files/LokmatNews.jpg",
+        thumbnail: "./assets/files/LokmatNews.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Lokmat Times NewsPaper Article",
+    }, {
+        src: "./assets/files/SIH.jpg",
+        thumbnail: "./assets/files/SIH.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "SIH 2020 Valedictory Function",
+    }, {
+        src: "./assets/files/new_world_order.jpeg",
+        thumbnail: "./assets/files/new_world_order.jpeg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Team: NEW_WORLD_ORDER",
+    }, {
+        src: "./assets/files/litmun.jpg",
+        thumbnail: "./assets/files/litmun.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "LITMUN 2020 Recommendation Letter"
+    }, {
+        src: "./assets/files/BlockChain.jpg",
+        thumbnail: "./assets/files/BlockChain.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Coursera Blockchain Certificate",
+    }, {
+        src: "./assets/files/ICPC2019.jpg",
+        thumbnail: "./assets/files/ICPC2019.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "ICPC Honerable Mention",
+    }, {
+        src: "./assets/files/UdayFintech.jpg",
+        thumbnail: "./assets/files/UdayFintech.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Uday Fintech Certification",
+    }, {
+        src: "./assets/files/JavaBusinessCertificate.jpg",
+        thumbnail: "./assets/files/JavaBusinessCertificate.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Java Business Application Training Certificate",
+    }, {
+        src: "./assets/files/PythonCertificate.jpg",
+        thumbnail: "./assets/files/PythonCertificate.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Python Training Certificate",
+    }, {
+        src: "./assets/files/GitCertificate.jpg",
+        thumbnail: "./assets/files/GitCertificate.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Git Training Certificate",
     }
+    ];
 
     return (
         <div className="page">
@@ -63,19 +78,14 @@ function Gallery() {
                 <div className="section-title">
                     <h1><u>Gallery</u></h1>
                 </div>
-                <center>
-                    <div className="row" style={{ justifyContent: "center", marginTop: "35px" }}>
-                        <div className="col-11">
-                            <FlexiImageGrid
-                                images={images}
-                                numberOfColumns={4}
-                                onClick={onClickHandler}
-                            />
-                        </div>
-                    </div>
-                </center>
+                <div style={{ justifyContent: "center", margin: "35px" }}>
+                    <MyGallery
+                        images={images1}
+                        enableImageSelection={false}
+                        rowHeight={280}
+                    />
+                </div>
             </section>
-            <Footer />
         </div>
     )
 }
