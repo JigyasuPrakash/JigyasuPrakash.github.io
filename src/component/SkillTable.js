@@ -139,18 +139,14 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>PostgreSQL</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
                                 <td>Firestore</td>
                             </tr>
                             <tr>
-                                <td>4</td>
+                                <td>3</td>
                                 <td>MongoDB</td>
                             </tr>
                             <tr>
-                                <td>5</td>
+                                <td>4</td>
                                 <td>Oracle 11G</td>
                             </tr>
                         </tbody>

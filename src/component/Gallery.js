@@ -10,11 +10,17 @@ function Gallery() {
         thumbnailHeight: 200,
         caption: "QuotesNStories Recommendation Letter"
     }, {
-        src: "./assets/files/LokmatNews.jpg",
-        thumbnail: "./assets/files/LokmatNews.jpg",
+        src: "./assets/files/LokmatEng.jpg",
+        thumbnail: "./assets/files/LokmatEng.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200,
-        caption: "Lokmat Times NewsPaper Article",
+        caption: "Lokmat Times English NewsPaper Article",
+    }, {
+        src: "./assets/files/LokmatHindi.jpg",
+        thumbnail: "./assets/files/LokmatHindi.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Lokmat Samachar Hindi NewsPaper Article",
     }, {
         src: "./assets/files/SIH.jpg",
         thumbnail: "./assets/files/SIH.jpg",
