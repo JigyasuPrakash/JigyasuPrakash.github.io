@@ -6,6 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import CodeChef from '../img/codechef.png';
 import CodeForces from '../img/codeforces.png';
 import HackerEarth from '../img/hackerearth.png';
+import LeetCode from '../img/leetcode.png';
 
 function More() {
     return (
@@ -64,6 +65,14 @@ function More() {
                             </tr>
                             <tr>
                                 <td>7</td>
+                                <td>LeetCode</td>
+                                <td>
+                                    <a href="https://leetcode.com/jprak121/" target="_blank" rel="noopener noreferrer"><img
+                                        src={LeetCode} alt="leetcode" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
                                 <td>HackerEarth</td>
                                 <td>
                                     <a href="https://www.hackerearth.com/@jigyasuprakash3" target="_blank" rel="noopener noreferrer"><img
@@ -71,7 +80,7 @@ function More() {
                                 </td>
                             </tr>
                             <tr>
-                                <td>8</td>
+                                <td>9</td>
                                 <td>CodeChef</td>
                                 <td>
                                     <a href="https://www.codechef.com/users/jprak121" target="_blank" rel="noopener noreferrer"><img
@@ -79,7 +88,7 @@ function More() {
                                 </td>
                             </tr>
                             <tr>
-                                <td>9</td>
+                                <td>10</td>
                                 <td>CodeForces</td>
                                 <td>
                                     <a href="http://codeforces.com/profile/Jprak121" target="_blank" rel="noopener noreferrer"><img
@@ -87,7 +96,7 @@ function More() {
                                 </td>
                             </tr>
                             <tr>
-                                <td>10</td>
+                                <td>11</td>
                                 <td>Sourcerer</td>
                                 <td>
                                     <a href="https://sourcerer.io/jprak121" target="_blank" rel="noopener noreferrer"><img
@@ -95,7 +104,7 @@ function More() {
                                 </td>
                             </tr>
                             <tr>
-                                <td>11</td>
+                                <td>12</td>
                                 <td>Mail</td>
                                 <td><a href="mailto: jprakash150599@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon size="lg" icon={faEnvelope} />

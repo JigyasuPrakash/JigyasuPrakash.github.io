@@ -18,7 +18,7 @@
     "react-grid-gallery": "^0.5.5",
     "react-particles-js": "3.0.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.2",
     "react-transition-group": "^4.3.0",
     "w3-css": "^4.1.0"
   },
