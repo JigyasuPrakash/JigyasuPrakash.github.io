@@ -17,7 +17,7 @@ function Gallery() {
         caption: "Lokmat Times English NewsPaper Article",
     }, {
         src: "./assets/files/LokmatHindi.jpg",
-        thumbnail: "./assets/files/LokmatHindi.jpg",
+        thumbnail: "./assets/files/lokmathindi.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200,
         caption: "Lokmat Samachar Hindi NewsPaper Article",
@@ -34,11 +34,18 @@ function Gallery() {
         thumbnailHeight: 200,
         caption: "Team: NEW_WORLD_ORDER",
     }, {
+        src: "./assets/files/firebasecodejam.jpg",
+        thumbnail: "./assets/files/firebasecodejam.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 200,
+        caption: "Firebase CodeJam by GDG Nagpur",
+    },
+    {
         src: "./assets/files/litmun.jpg",
         thumbnail: "./assets/files/litmun.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 200,
-        caption: "LITMUN 2020 Recommendation Letter"
+        caption: "LITMUN 2020 Letter of Appreciation"
     }, {
         src: "./assets/files/BlockChain.jpg",
         thumbnail: "./assets/files/BlockChain.jpg",

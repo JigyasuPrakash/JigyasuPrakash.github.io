@@ -93,7 +93,7 @@ function Home() {
                 "https://img.shields.io/badge/-Chart%20JS-blue",
                 "https://img.shields.io/badge/-HTML-blue",
             ],
-            summary: "To provide a platform to write effecient sorting algorithms. But analysing the execution time utilised by the algorithm for various set of input.",
+            summary: "To provide a platform to write code and get runtime analysis of sorting algorithms by analysing the execution time utilised by the algorithm for various set of input.",
             github: "https://github.com/JigyasuPrakash/algo-analyst",
             live: "http://algo-analyst-algoanalyst.apps.ca-central-1.starter.openshift-online.com/"
         },
