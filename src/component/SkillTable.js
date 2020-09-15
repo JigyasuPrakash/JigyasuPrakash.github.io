@@ -107,7 +107,7 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>R-Studio</td>
+                                <td>Docker</td>
                             </tr>
                             <tr>
                                 <td>5</td>

@@ -6,11 +6,24 @@ function Home() {
 
     const projects = [
         {
+            title: "ReMedize",
+            tags: [
+                "https://img.shields.io/badge/-React%20Native-blue",
+                "https://img.shields.io/badge/-P2P%20Mesh%20Network-blue",
+                "https://img.shields.io/badge/-Arduino-blue",
+                "https://img.shields.io/badge/-ChatBot-blue"
+            ],
+            summary: "SIH 2020 Winning Project || A Complete Solution for Remote Telemedicine Infrastructure, such as Video Call, IVR, P2P Network, Diagnostic Kit, Patient App, Patient MIS etc. were implemented for Government of Uttrakhand.",
+            github: "#",
+            live: "#"
+        },
+        {
             title: "ProperGator",
             tags: [
                 "https://img.shields.io/badge/-HTML-blue",
                 "https://img.shields.io/badge/-JavaScript-blue",
                 "https://img.shields.io/badge/-Machine%20Learning-blue",
+                "https://img.shields.io/badge/-CV-blue",
             ],
             summary: "A platform which uses ML and CV for serving Ads, Propergator use a camera to do realtime analysis of audience present infront of digital signage and target ads for them.",
             github: "https://github.com/JigyasuPrakash/ProperGator-1",

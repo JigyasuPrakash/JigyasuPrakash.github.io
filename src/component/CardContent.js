@@ -10,7 +10,7 @@ function CardContent({ project }) {
     ))
 
     if (project.github === "#") {
-        githubButton = <button className="btn card-link text-white bg-dark mb-3" disabled>GitHub</button>
+        githubButton = null;
     } else {
         githubButton = <button className="btn"><a href={project.github} target="_blank" rel="noopener noreferrer" className="btn card-link text-white bg-dark mb-3">GitHub</a> </button>
     }
