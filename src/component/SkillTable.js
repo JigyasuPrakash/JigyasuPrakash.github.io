@@ -27,18 +27,22 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>Python</td>
+                                <td>Ruby</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>HTML5 / CSS3</td>
+                                <td>Python</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td>C / C++</td>
+                                <td>HTML5 / CSS3</td>
                             </tr>
                             <tr>
                                 <td>7</td>
+                                <td>C / C++</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
                                 <td>Go</td>
                             </tr>
                         </tbody>
@@ -67,18 +71,22 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>p5 JS</td>
+                                <td>Ruby on Rails</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>jQuery</td>
+                                <td>p5 JS</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td>React Native</td>
+                                <td>jQuery</td>
                             </tr>
                             <tr>
                                 <td>7</td>
+                                <td>React Native</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
                                 <td>BootStrap</td>
                             </tr>
                         </tbody>
@@ -103,22 +111,26 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>PyCharm</td>
+                                <td>GitLab</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>Docker</td>
+                                <td>PyCharm</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Android Studio</td>
+                                <td>Docker</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td>Travis CI</td>
+                                <td>Android Studio</td>
                             </tr>
                             <tr>
                                 <td>7</td>
+                                <td>Travis CI</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
                                 <td>VS Code</td>
                             </tr>
                         </tbody>

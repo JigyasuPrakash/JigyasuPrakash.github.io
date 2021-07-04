@@ -41,6 +41,10 @@ function Home() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>Jan 2021 - Present</td>
+                                <td>Solution Engineer @ <a href="https://deqode.com/" target="_black">Deqode Solutions</a></td>
+                            </tr>
+                            <tr>
                                 <td>May 2020 - Jul 2020</td>
                                 <td>Web Development Intern @ QuotesNStories, Hyderabad</td>
                             </tr>
