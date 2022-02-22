@@ -41,10 +41,6 @@ function SkillCard() {
                                 <td>7</td>
                                 <td>C / C++</td>
                             </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Go</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -85,10 +81,6 @@ function SkillCard() {
                                 <td>7</td>
                                 <td>React Native</td>
                             </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>BootStrap</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -128,10 +120,6 @@ function SkillCard() {
                             <tr>
                                 <td>7</td>
                                 <td>Travis CI</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>VS Code</td>
                             </tr>
                         </tbody>
                     </table>

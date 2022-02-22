@@ -97,23 +97,14 @@ function More() {
                             </tr>
                             <tr>
                                 <td>11</td>
-                                <td>Sourcerer</td>
-                                <td>
-                                    <a href="https://sourcerer.io/jprak121" target="_blank" rel="noopener noreferrer"><img
-                                        src="https://sourcerer.io/icons/logo-sharing.svg" height="20px" alt="Sourcerer" /></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
                                 <td>Mail</td>
-                                <td><a href="mailto: jprakash150599@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <td><a href="mailto: jigyasuprakash3@gmail.com" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon size="lg" icon={faEnvelope} />
                                 </a></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-
             </section>
             <Footer />
         </div>
