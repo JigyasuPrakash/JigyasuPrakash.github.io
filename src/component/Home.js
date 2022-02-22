@@ -41,8 +41,12 @@ function Home() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Jan 2021 - Present</td>
-                                <td>Solution Engineer @ <a href="https://deqode.com/" target="_black">Deqode Solutions</a></td>
+                                <td>Oct 2021 - Present</td>
+                                <td>Software Developer @ <a href="https://www.anchanto.com/" target="_blank">Anchanto, Pune</a></td>
+                            </tr>
+                            <tr>
+                                <td>Jan 2021 - Oct 2021</td>
+                                <td>Solution Engineer @ <a href="https://deqode.com/" target="_blank">Deqode Solutions, Indore</a></td>
                             </tr>
                             <tr>
                                 <td>May 2020 - Jul 2020</td>
