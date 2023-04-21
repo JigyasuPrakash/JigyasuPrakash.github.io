@@ -4,6 +4,20 @@ import MyGallery from "react-grid-gallery";
 function Gallery() {
   const images1 = [
     {
+      src: "./assets/files/write_better_emails.jpg",
+      thumbnail: "./assets/files/write_better_emails.jpg",
+      thumbnailWidth: 320,
+      thumbnailHeight: 200,
+      caption: "Write Better Emails Certificate",
+    },
+    {
+      src: "./assets/files/aws_essentials.jpg",
+      thumbnail: "./assets/files/aws_essentials.jpg",
+      thumbnailWidth: 320,
+      thumbnailHeight: 200,
+      caption: "AWS Essentials Certificate",
+    },
+    {
       src: "./assets/files/Internship.jpg",
       thumbnail: "./assets/files/Internship.jpg",
       thumbnailWidth: 320,

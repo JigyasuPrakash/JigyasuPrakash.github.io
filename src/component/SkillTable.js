@@ -15,30 +15,26 @@ function SkillCard() {
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>TypeScript</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
                                 <td>JavaScript</td>
                             </tr>
                             <tr>
-                                <td>3</td>
+                                <td>2</td>
                                 <td>Java</td>
                             </tr>
                             <tr>
-                                <td>4</td>
+                                <td>3</td>
                                 <td>Ruby</td>
                             </tr>
                             <tr>
-                                <td>5</td>
+                                <td>4</td>
                                 <td>Python</td>
                             </tr>
                             <tr>
-                                <td>6</td>
+                                <td>5</td>
                                 <td>HTML5 / CSS3</td>
                             </tr>
                             <tr>
-                                <td>7</td>
+                                <td>6</td>
                                 <td>C / C++</td>
                             </tr>
                         </tbody>
@@ -71,14 +67,10 @@ function SkillCard() {
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>p5 JS</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
                                 <td>jQuery</td>
                             </tr>
                             <tr>
-                                <td>7</td>
+                                <td>6</td>
                                 <td>React Native</td>
                             </tr>
                         </tbody>
@@ -116,10 +108,6 @@ function SkillCard() {
                             <tr>
                                 <td>6</td>
                                 <td>Android Studio</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Travis CI</td>
                             </tr>
                         </tbody>
                     </table>

@@ -44,6 +44,10 @@ function Home() {
                                 <td>Software Developer @ <a href="https://www.anchanto.com/" target="_blank" rel="noreferrer">Anchanto, Pune</a></td>
                             </tr>
                             <tr>
+                                <td>Aug 2022 - Aug 2022</td>
+                                <td>Mentor/Evaluator @ <a href="https://sih.gov.in/" target="_blank" rel="noreferrer">Smart India Hackathon</a></td>
+                            </tr>
+                            <tr>
                                 <td>Jan 2021 - Oct 2021</td>
                                 <td>Solution Engineer @ <a href="https://deqode.com/" target="_blank" rel="noreferrer">Deqode Solutions, Indore</a></td>
                             </tr>

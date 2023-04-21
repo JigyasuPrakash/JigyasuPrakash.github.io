@@ -1,6 +1,6 @@
 # itsjigyasu.me
 
- This repository contains source code of my website. Click <a href="https://itsjigyasu.me">here</a> to visit.
+ This repository contains source code of my website. Click <a href="https://jigyasuprakash.github.io">here</a> to visit.
 
 ## Installation
 ``` bash
